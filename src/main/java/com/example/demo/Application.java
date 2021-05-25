@@ -15,6 +15,9 @@ public class Application {
                 int i=1;
                 System.out.println("Integer Variable Added......"); 
                 System.out.println("Integer Variable Added2......"); 
+                System.out.println("Trying for Merging......"); 
+                
+
             
 
 	}
