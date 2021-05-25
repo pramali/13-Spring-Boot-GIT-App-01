@@ -8,6 +8,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Application {
 
 	public static void main(String[] args) {
+		
+		private static HashMap map=new HashMap();
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 		run.close();
 		System.out.println("Welcome To Spring Boot ");
@@ -16,5 +18,11 @@ public class Application {
             
 
 	}
+	
+	public String getMessage()
+	{
+		System.out.println("Need to Get Conflicts here"); 
+	}
 
+	
 }
