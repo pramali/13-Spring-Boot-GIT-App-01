@@ -13,6 +13,8 @@ public class Application {
 		System.out.println("Welcome To Spring Boot ");
                 int i=1;
                 System.out.println("Integer Variable Added......"); 
+                System.out.println("Trying for Merging......"); 
+                
             
 
 	}
