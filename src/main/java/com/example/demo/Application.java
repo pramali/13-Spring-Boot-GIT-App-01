@@ -11,7 +11,10 @@ public class Application {
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 		run.close();
 		System.out.println("Welcome To Spring Boot ");
-                int i=1; 
+                int i=1;
+                System.out.println("Integer Variable Added......"); 
+            
+
 	}
 
 }
